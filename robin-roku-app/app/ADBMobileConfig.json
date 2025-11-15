@@ -1,0 +1,14 @@
+{
+    "analytics": {
+        "adobe": {
+        "adMobileCongfig": {
+            "lastModified": "2024-06-10T12:00:00Z",
+            "marketingCloudOrgId": "YOUR_MARKETING_CLOUD_ORG_ID"
+                            }
+                },
+                "analytics" : {},
+                "mediaHeartbeat" : {}
+                
+    }
+
+}
