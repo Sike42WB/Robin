@@ -15,7 +15,7 @@
     // Enable linting and analysis
     "python.analysis.autoImportCompletions": true,
     "python.analysis.extraPaths": [
-        "${workspaceFolder}/app",
-        "${workspaceFolder}/robin-web-app"
+        "${workspaceFolder}/robin-web-app",
+         "${workspaceFolder}/app"
     ]
 }
