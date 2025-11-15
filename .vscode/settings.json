@@ -1,6 +1,6 @@
 {
   "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
   "python.analysis.extraPaths": [
-    "./src", "./lib"
+    "./src", "./lib", "./robin-web-app"
   ]
 }
