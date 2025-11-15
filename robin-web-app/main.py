@@ -123,54 +123,24 @@ class CryptoAPITrading:
     def get_orders(self) -> Any:
         path = "/api/v1/crypto/trading/orders/"
         return self.make_api_request("GET", path)
-
-def build_order_payload(
-    side: str,
-    symbol: str,
-    order_type: str,
-    order_config: Dict[str, str],
-    client_order_id: Optional[str] = None
-) -> Dict[str, Any]:
-    if not client_order_id:
-        client_order_id = str(uuid.uuid4())
-
-    if order_type not in {"market", "limit", "stop"}:
-        raise ValueError(f"Unsupported order type: {order_type}")
-
-    if side not in {"buy", "sell"}:
-        raise ValueError(f"Unsupported side: {side}")
-
-    return {
-        "client_order_id": client_order_id,
-        "side": side,
-        "type": order_type,
-        "symbol": symbol,
-        f"{order_type}_order_config": order_config,
-    }
-
-
-
+                
 def main():
     api_trading_client = CryptoAPITrading()
 
-    dynamic_inputs = {
-        "side": "sell",
-        "symbol": "BTC-USD",
-        "type": "market",
-        "market_order_config": {"asset_quantity": "0.0001"}
-    }
 
-    order_payload = build_order_payload(
-        side=dynamic_inputs["side"],
-        symbol=dynamic_inputs["symbol"],
-        order_type=dynamic_inputs["type"],
-        order_config=dynamic_inputs["market_order_config"]
+    order = api_trading_client.place_order(
+          str(uuid.uuid4()),
+          "sell",
+          "market",
+          "BTC-USD",
+          {"asset_quantity": "0.0001"}
     )
+    
 
-    order = api_trading_client.make_api_request(
-        method="POST",
-        path="/api/v1/crypto/trading/orders/",
-        body=json.dumps(order_payload)
-    )
+    
 
-    print(order)
+
+
+
+if __name__ == "__main__":
+    main()
