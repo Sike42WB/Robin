@@ -1,6 +1,21 @@
 {
-  "python.defaultInterpreterPath": ".venv/Scripts/python.exe",
-  "python.analysis.extraPaths": [
-    "./src", "./lib", "./robin-web-app"
-  ]
+    // Point VS Code to the Python interpreter in your virtual environment
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+
+    // Optional: set the default terminal to run main.py
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder}"
+    },
+
+    // Configure Code Runner or debugging to start main.py
+    "code-runner.executorMap": {
+        "python": "python ${workspaceFolder}/main.py"
+    },
+
+    // Enable linting and analysis
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/app",
+        "${workspaceFolder}/robin-web-app"
+    ]
 }
