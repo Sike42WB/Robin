@@ -1,2 +1,3 @@
 secrets.env
 **/secrets.env
+robin-web-app/config/secrets.env
