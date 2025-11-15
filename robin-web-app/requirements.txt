@@ -1,10 +1,11 @@
 Flask>=3.0.0
 requests==2.31.0
 pyotp==2.3.0
-python-dotenv==0.15.0
 cryptography==41.0.3
 numpy>=1.26.0
 pandas>=2.2.0
 robin-stocks>=2.1.0
 scikit-learn>=1.5.0
 torch>=2.2.0
+python-dotenv>=1.0.0
+pynacl>=1.5.0
