@@ -4,13 +4,6 @@ import json
 from typing import Any, Dict, Optional
 import uuid
 import requests
-from robin_stocks import robinhood as rh  # Verify with your account and the official docs
-try:
-    from dotenv import load_dotenv
-except Exception:
-    # python-dotenv is not installed; provide a no-op fallback to avoid import errors.
-    def load_dotenv(*args, **kwargs):
-        return False
 import os
 import time
 
