@@ -1,0 +1,2 @@
+WEB_PASSWORD=""
+WEB_USER=""
