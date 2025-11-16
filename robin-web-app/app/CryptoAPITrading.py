@@ -5,11 +5,15 @@ from typing import Any, Dict, Optional
 import uuid
 import requests
 import os
-from nacl.signing import SigningKey
 from dotenv import load_dotenv
+from nacl.signing import SigningKey
 
 
-load_dotenv(dotenv_path='config/secrets.env')
+
+
+
+
+load_dotenv(dotenv_path='**/config/secrets.env')
 API_KEY = os.getenv('ROBINHOOD_API_KEY_TEST')
 BASE64_PRIVATE_KEY = os.getenv('BASE64_PRIVATE_KEY_TEST')
 
