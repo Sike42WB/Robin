@@ -7,5 +7,5 @@ pandas>=2.2.0
 robin-stocks>=2.1.0
 scikit-learn>=1.5.0
 torch>=2.2.0
-python-dotenv>=1.0.0
+python-dotenv==1.0.0
 pynacl>=1.5.0
