@@ -4,9 +4,10 @@ import json
 from typing import Any, Dict, Optional
 import uuid
 import requests
+import os
 from nacl.signing import SigningKey
 from dotenv import load_dotenv
-import os
+
 
 load_dotenv(dotenv_path='config/secrets.env')
 API_KEY = os.getenv('ROBINHOOD_API_KEY_TEST')

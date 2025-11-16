@@ -16,6 +16,6 @@
     "python.analysis.autoImportCompletions": true,
     "python.analysis.extraPaths": [
         "${workspaceFolder}/robin-web-app",
-         "${workspaceFolder}/app"
+         "${workspaceFolder}/robin-roku-app"
     ]
 }
