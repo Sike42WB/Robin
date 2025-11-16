@@ -11,7 +11,13 @@ languages
     --- Brighterscript and Brightscript
     --- Python3
 
+Read Rate Limiting documentation for the API
 https://docs.robinhood.com/crypto/trading/
+
+Request per minute per user account : 100
+Request per minute per user account in bursts: 300
+
+Please store tokes safely when testing and always keep them in a secrets.env file in the project.  
 
 https://www.iana.org/protocols
 
