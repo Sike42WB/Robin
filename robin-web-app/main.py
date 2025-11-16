@@ -8,7 +8,7 @@ from nacl.signing import SigningKey
 from dotenv import load_dotenv
 import os
 
-load_dotenv(dotenv_path='../config/secrets.env')
+load_dotenv(dotenv_path='config/secrets.env')
 API_KEY = os.getenv('ROBINHOOD_API_KEY_TEST')
 BASE64_PRIVATE_KEY = os.getenv('BASE64_PRIVATE_KEY_TEST')
 
