@@ -5,9 +5,13 @@ from typing import Any, Dict, Optional
 import uuid
 import requests
 from nacl.signing import SigningKey
+import os
+from dotenv import load_dotenv  
 
-API_KEY = "rh-api-crypto-trading"
-BASE64_PRIVATE_KEY = "your_base64_encoded_private_key_here"
+load_dotenv(dotenv_path='config/secrets.env')
+API_KEY = os.getenv('ROBINHOOD_API_KEY_TEST')
+BASE64_PRIVATE_KEY = os.getenv('BASE64_PRIVATE_KEY_TEST')
+
 
 
 class CryptoAPITrading:
