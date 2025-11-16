@@ -17,6 +17,6 @@ Sample Code
         import os
         from dotenv import load_dotenv  
 
-            load_dotenv(dotenv_path='config/dmgz-roku-configs/secrets.env')
+            load_dotenv(dotenv_path='../config/dmgz-roku-configs/secrets.env')
             API_KEY = os.getenv('ROBINHOOD_API_KEY_TEST')
             BASE64_PRIVATE_KEY = os.getenv('BASE64_PRIVATE_KEY_TEST')
