@@ -1,6 +1,16 @@
 # Robinhood Bitcoin Trades
 A sample buying and selling automation using python 
 
+Project file structure
+    ---- Working directory
+        robin-roku-app = source code for your Roku TV
+        robin-web-app = source code for connecting your Robinhood API keys
+
+
+languages
+    --- Brighterscript and Brightscript
+    --- Python3
+
 https://docs.robinhood.com/crypto/trading/
 
 https://www.iana.org/protocols

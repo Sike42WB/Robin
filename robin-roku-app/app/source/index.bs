@@ -1,0 +1,7 @@
+function new_main(gaa, launchParameters) 
+  	screen = createObject("roSGScreen")
+	screen.setMessagePort(gaa.mainPort)
+
+	scene = screen.createScene("MainScene")
+	screen.show()
+end function
