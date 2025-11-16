@@ -4,12 +4,12 @@
 
     // Optional: set the default terminal to run main.py
     "terminal.integrated.env.windows": {
-        "PYTHONPATH": "${workspaceFolder}"
+        "PYTHONPATH": "${workspaceFolder}/"
     },
 
     // Configure Code Runner or debugging to start main.py
     "code-runner.executorMap": {
-        "python": "python ${workspaceFolder}/main.py"
+        "python": "python ${workspaceFolder}/robin-web-app/start.py"
     },
 
     // Enable linting and analysis
