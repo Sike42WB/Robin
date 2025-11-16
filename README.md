@@ -21,6 +21,19 @@ Please store tokes safely when testing and always keep them in a secrets.env fil
 
 https://www.iana.org/protocols
 
+Create a new secrets.env file and paste in your API Account into the file and save in the directory "robin-web-app\app\config\"
+ROBINHOOD_API_KEY = "your key"
+BASE64_PRIVATE_KEY = "your key"
+ROBINHOOD_API_KEY_TEST = "your key"
+BASE64_PRIVATE_KEY_TEST = "your key"
+BASE64_PRIVATE_KEY_ORIG = "your key"
+PUBLIC_KEY_BASE64 = "your key"
+PRIVATE_KEY_BASE64_4_20_2025 = "your key"
+PUBLIC_KEY_BASE64_4_20_202 = "your key"
+API_KEY_REAL = "your key"
+
+paste int the code with "your info" 
+
 https://www.iana.org/numbers
 
 Body =	{
