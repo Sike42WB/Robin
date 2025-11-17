@@ -131,8 +131,7 @@ def main():
     api_trading_client = CryptoAPITrading()
     print(api_trading_client.get_account())
 
-    """
-    BUILD YOUR TRADING STRATEGY HERE
+   
 
     order = api_trading_client.place_order(
           str(uuid.uuid4()),
@@ -141,7 +140,7 @@ def main():
           "BTC-USD",
           {"asset_quantity": "0.0001"}
     )
-    """
+
 
 
 if __name__ == "__main__":
