@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="MainScene" extends="Scene" initialFocus="HomePageGrid">
+		<script type="text/brightscript" uri="pkg:/components/MainScene.brs"/>
+		<script type="text/brightscript" uri="pkg:/source/utils.brs" />
+		<script type="text/brightscript" uri="pkg:/source/registry.brs" />
+
+
+		<interface>
+			
+				<field id="TaskController" type="node" />
+				<field id="outRequest" type="assocArray"/>
+
+				<!-- for sending notification between components. forexample: save settings.  -->
+				<field id="Notification" type="assocarray" alwaysNotify="true" />
+				<field id="RelatedVideos" type="roArray" alwaysNotify="true" />
+				<field id="error" type="assocArray" alwaysNotify="true" />
+				<field id="errorMsg" type="string" value="MainScene" alwaysNotify="true" />
+
+		</interface>
+
+		<children>
+				<Group translation="[0, 60]">
+						<Poster translation="[820, 325]"
+		      		id="mainScenePreloaderGrpBackground"
+		      		width="280"
+		      		height="310" uri="pkg:/images/white_fill_corner_radius_10.9.png"  visible="false" />
+
+						<Group id="mainScenePreloaderGrp" visible="false">
+								<BusySpinner id="mainScenePreloader" translation="[888, 360]" control="start" clockwise="true" spinInterval="0.8"/>
+								<Label id="mainScenePreloaderLbl" translation="[0, 545]"  horizAlign="center" width="1920"  />
+						</Group>
+				</Group>
+
+				<LoginController id="LoginController" />
+				<MfaController id="MfaController" />
+				<FavoritesController id="FavoritesController" />
+				<DownloadController id="DownloadController" />
+				<TaskController id="TaskController" />
+				<BrandController id="BrandController" />
+				<AnalyticsController id="AnalyticsController" />
+
+				
+
+
+	
+
+				
+		</children>
+</component>
