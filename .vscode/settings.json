@@ -9,7 +9,7 @@
 
     // Configure Code Runner or debugging to start main.py
     "code-runner.executorMap": {
-        "python": "python ${workspaceFolder}/robin-web-app/start.py"
+        "python": "python ${workspaceFolder}/robin-web-app/app/start.py"
     },
 
     // Enable linting and analysis
