@@ -10,7 +10,7 @@ function init() as void
 		m.ViewStackManager = CreateViewStackManager()
 		m.RegistryManager = CreateRegistryManager()
 
-		m.top.backgroundURI = "pkg:/images/wbtvd-roku-bg.png"
+		m.top.backgroundURI = "pkg:/images/robin-roku-bg.png"
 
 		m.appLaunchCompleteBeaconSent = false
 		m.appDialogInitiateBeaconSent = false
@@ -20,8 +20,7 @@ function init() as void
 		UpdateEnvironment()
 	  	ChangeFonts()
 
-		GlobalSet("BrainiacPartnerID",m.InitConfigs.BrainiacPartnerID)
-
+	
 
 
 end function

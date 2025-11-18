@@ -4,13 +4,10 @@
 		<script type="text/brightscript" uri="pkg:/source/utils.brs" />
 		<script type="text/brightscript" uri="pkg:/source/registry.brs" />
 
-
 		<interface>
 			
 				<field id="TaskController" type="node" />
 				<field id="outRequest" type="assocArray"/>
-
-				<!-- for sending notification between components. forexample: save settings.  -->
 				<field id="Notification" type="assocarray" alwaysNotify="true" />
 				<field id="RelatedVideos" type="roArray" alwaysNotify="true" />
 				<field id="error" type="assocArray" alwaysNotify="true" />
