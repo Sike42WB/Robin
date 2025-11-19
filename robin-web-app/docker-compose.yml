@@ -1,0 +1,27 @@
+services:
+  web:
+    build: .
+    container_name: robin_web_app
+    command: python app/main.py
+    volumes:
+      - .:/code
+    ports:
+      - "5000:5000"
+    env_file:
+      - ./config.env
+
+  db:
+    image: postgres:14
+    container_name: robin_db
+    restart: always
+    environment:
+      - POSTGRES_USER=robin
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=robinhood
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data:/var/lib/postgresql/data
+
+volumes:
+  db_data:
