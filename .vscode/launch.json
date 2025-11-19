@@ -10,6 +10,23 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal"
-        }
-    ]
+        },
+        {
+            "name": "Docker: Python (Compose) UP ",
+            "type": "docker",
+            "request": "launch",
+            "platform": "python",
+            "python": {
+                "file": ["${workspaceFolder}/robin-web-app/app/main.py"]
+            },
+            "preLaunchTask": "docker-compose: up"
+        },
+        {
+            "name": "Docker: Python (Compose) DOWN ",
+            "type": "docker",
+            "request": "launch",
+            "platform": "python",
+            "preLaunchTask": "docker-compose: down"
+    }
+  ]
 }
