@@ -1,3 +1,13 @@
 secrets.env
 **/secrets.env
 robin-web-app/app/config/secrets.env
+
+# Ignore Mac system files
+.DS_Store
+# Ignore Node.js modules
+node_modules/
+
+config.env
+**/config.env
+
+config/robin-web-configs/config.env
