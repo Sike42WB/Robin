@@ -1,3 +1,18 @@
+sub cacheCryptoData(jsonString as String)
+    reg = CreateObject("roRegistrySection", "CryptoCache")
+    reg.Write("cryptoData", jsonString)
+    reg.Flush() ' ensures data is saved
+end sub
+function getCachedCryptoData() as String
+    reg = CreateObject("roRegistrySection", "CryptoCache")
+    if reg.Exists("cryptoData")
+        return reg.Read("cryptoData")
+    else
+        return "" ' empty string means no cache
+    end if
+end function
+
+
 function regRead(key, section = invalid, default = invalid)
 	if section = invalid then
 		section = m.constants.APP_ENVIRONMENT
