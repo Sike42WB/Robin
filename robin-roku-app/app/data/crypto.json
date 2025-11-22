@@ -1,4 +1,7 @@
-{
+{  
+    "crypto": 
+    [
+    {
   "7": "Lucky7",
   "42": "42 Coin",
   "300": "300 token",
@@ -12240,5 +12243,7 @@
   "ZZZ": "zzz.finance",
   "OPET": "ÕpetFoundation",
   "IBFK": "İstanbul Başakşehir Fan Token",
-  "ETSC": "​Ether star blockchain"
+  "ETSC": "​Ether star blockchain"  }
+]
 }
+
