@@ -8,7 +8,7 @@ function init() as void
     	cryptoArray.push(item)
 	end for
     ' Initialize other components or variables here
-	pageSize = 50
+	pageSize = 5
 	currentPage = 0
 	rowData = getPage(cryptoArray, currentPage, pageSize)
 
