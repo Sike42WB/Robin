@@ -3,6 +3,8 @@ function init() as void
     m.top.title = "Main Scene"
     
 	cryptoArray = []
+	cryptoJson = { "BTC":"Bitcoin", "ETH":"Ethereum" }
+	
 	for each key in cryptoJson
     	item = { id: key, name: cryptoJson[key] }
     	cryptoArray.push(item)
