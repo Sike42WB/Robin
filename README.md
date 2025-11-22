@@ -1,5 +1,11 @@
-# Robinhood Bitcoin Trades
-A sample buying and selling automation using python 
+# Robinhood Fishtank 
+
+## Introduction
+
+This project uses a Abstract Data Model for buying and selling Crypto. 
+The source project is configured with a Docker Container for development and testing.
+
+The project requires contributers to modify the secrets.evn file for keys and tokens that are required by the Robinhood API.  see more 
 
 Project file structure
     ---- Working directory
