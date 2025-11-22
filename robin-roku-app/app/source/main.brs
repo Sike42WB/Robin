@@ -26,7 +26,8 @@ function runApplication(gaa as object, launchParameters as object)
     	cacheCryptoData(jsonString)
     	cryptoJson = ParseJSON(jsonString)
 		' We may need a delay here to simulate network fetch
-		cacheCryptoData(cryptoJson)
+		' cacheCryptoData(cryptoJson)
+		gaa.phxEnvironmentData = { "cryptoData": cryptoJson }
 	end if
 
 	
