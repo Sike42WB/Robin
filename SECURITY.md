@@ -5,12 +5,27 @@
 Use this section to tell people about which versions of your project are
 Currently being supported with security updates.
 
+## ROBINHOOD ROKU APP
+
 | Version | Supported          |
 | ------- | ------------------ |
 | 1.0.0 | :white_check_mark: |
 | 1.0.x   | :x:                |
 | 0.0.x   | :white_check_mark: |
 | < 4.0   | :x:                |
+
+
+## ROBINHOOD WEB APP
+
+| Version | Supported          |
+| ------- | ------------------ |
+| 1.0.0 | :white_check_mark: |
+| 1.0.x   | :x:                |
+| 0.0.x   | :white_check_mark: |
+| < 4.0   | :x:                |
+
+
+
 
 ## Reporting a Vulnerability
 
