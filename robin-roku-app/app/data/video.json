@@ -1,0 +1,42 @@
+{  
+    "Videos": [
+      {
+        "SeriesID": 3261238,
+        "ContentID": "Cowhead",
+        "endIndex": "34",
+        "ShowTitle": "Colin Quinn from SNL 99",
+        "ShowCardURL": "https://www.nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "SortOrder": 1,
+        "sdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "hdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "streamURL": "https://sike42.blob.core.windows.net/videos/CowheadTV/Colin-Quinn-interview-with-cowhead-tv.mp4",
+        "synopsis": "Colin Quinn doesnt watch Cow TV.  He suggests you check out Tampa on Demand on a Saturday nite",
+        "format": "mp4",
+        "quality": "HD",
+        "runtime": "400",
+        "genres": "comedy"
+
+      },
+      {
+        "SeriesID": 32612366,
+        "ContentID": "Spanish",
+        "endIndex": "29",
+        "ShowTitle": "After Spanish jumps",
+        "ShowCardURL": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "SortOrder": 29,
+        "sdImg": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "hdImg": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "streamURL": "https://sike42.blob.core.windows.net/videos/Spanish/Spanish_Skydive_02.mp4",
+        "synopsis": "After Spanish jumps he celebrates with a churro and a cold cerveza",
+        "format": "mp4",
+        "quality": "HD",
+        "runtime": "512",
+        "genres": "Featured"
+
+      }
+      
+    ]
+
+}
+
+
