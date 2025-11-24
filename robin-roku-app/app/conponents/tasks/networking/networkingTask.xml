@@ -1,0 +1,10 @@
+<component name="NetworkingTask" extends="Task">
+	<interface>
+		<field id="constants" type="assocarray" />
+		<field id="input" type="assocarray" />
+		<field id="output" type="assocarray" />
+	</interface>
+	<script type="text/brightscript" uri="networkingTask.brs" />
+	<script type="text/brightscript" uri="transferPool.brs" />
+	<script type="text/brightscript" uri="pkg:/components/funcs/url.brs" />
+</component>

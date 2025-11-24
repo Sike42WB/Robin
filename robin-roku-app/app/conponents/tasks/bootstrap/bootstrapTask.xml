@@ -1,0 +1,8 @@
+<component name="BootstrapTask" extends="RetriableTask">
+	<interface>
+		<field id="constants" type="assocarray" />
+		<field id="output" type="assocarray" />
+	</interface>
+	<script type="text/brightscript" uri="bootstrapTask.brs" />
+	<script type="text/brightscript" uri="bootstrapTaskService.brs" />
+</component>
