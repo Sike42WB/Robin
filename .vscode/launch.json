@@ -27,6 +27,16 @@
             "request": "launch",
             "platform": "python",
             "preLaunchTask": "docker-compose: down"
-    }
-  ]
+        },  
+        {
+            "name": "Brihterscript Debug Launch - Robin Roku App",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "192.168.0.241",
+            "password": "Sike1234",
+            "rootDir": "${workspaceFolder}/robin-roku-app/app",
+            "preLaunchTask": "build"
+        }
+    ]
+  
 }

@@ -12,6 +12,28 @@ function runApplication(gaa as object, launchParameters as object)
 
 	gaa.phxDelayedEvents = [createAPPLaunchEvent()]
 
+
+	cachedData = getCachedCryptoData()
+
+	if cachedData <> ""
+    	' Already cached, just parse it
+    	cryptoJson = ParseJSON(cachedData)
+		'? "Loaded crypto data from cache."
+		
+	else
+    	' Not cached, load from file/network
+    	jsonString = ReadAsciiFile("pkg:/data/crypto.json")
+    	cacheCryptoData(jsonString)
+    	cryptoJson = ParseJSON(jsonString)
+		' We may need a delay here to simulate network fetch
+		' cacheCryptoData(cryptoJson)
+		gaa.phxEnvironmentData = { "cryptoData": cryptoJson }
+	end if
+
+	
+
+
+
 	if gaa.launchApp = "1.0" then
 		new_main(gaa, launchParameters)
 	else

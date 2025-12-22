@@ -1,4 +1,4 @@
-title=RobinHood TV
+title=Robin
 subtitle=AI Powered Financial News
 mm_icon_focus_fhd=pkg:/images/package/icon_fhd.png
 mm_icon_side_fhd=pkg:/images/package/icon_fhd.png
@@ -12,7 +12,7 @@ splash_screen_sd=pkg:/images/package/splash_sd.jpg
 splash_min_time=0
 major_version=1
 minor_version=0
-build_version=67
+build_version=1234
 ui_resolutions=FHD
 confirm_partner_button=1
 splash_rsg_optimization=0

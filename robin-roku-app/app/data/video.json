@@ -1,0 +1,42 @@
+{  
+    "Videos": [
+      {
+        "SeriesID": 3261238,
+        "ContentID": "Bitcoin",
+        "endIndex": "34",
+        "ShowTitle": "When to sell Bitcoin",
+        "ShowCardURL": "https://www.nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "SortOrder": 1,
+        "sdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "hdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "streamURL": "https://sike42.blob.core.windows.net/videos/CowheadTV/Colin-Quinn-interview-with-cowhead-tv.mp4",
+        "synopsis": "When to sell Bitcoin according to Colin Quinn",
+        "format": "mp4",
+        "quality": "HD",
+        "runtime": "400",
+        "genres": "comedy"
+
+      },
+      {
+        "SeriesID": 32612366,
+        "ContentID": "Dogecoin",
+        "endIndex": "29",
+        "ShowTitle": "When to sell Dogecoin",
+        "ShowCardURL": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "SortOrder": 29,
+        "sdImg": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "hdImg": "http://nerdjewels.com/Content/Roku/rokuxml/spanish/images/Skydive_outro.png",
+        "streamURL": "https://sike42.blob.core.windows.net/videos/Spanish/Spanish_Skydive_02.mp4",
+        "synopsis": "After much anticipation, Dogecoin is finally going to the moon!",
+        "format": "mp4",
+        "quality": "HD",
+        "runtime": "512",
+        "genres": "Featured"
+
+      }
+      
+    ]
+
+}
+
+

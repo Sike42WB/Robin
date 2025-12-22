@@ -1,0 +1,2 @@
+Set folder struct for cicd pipeline
+Delete this file after automation folder contains a zip file robin-roku.zip
