@@ -3,6 +3,7 @@
 		<script type="text/brightscript" uri="pkg:/components/mainScene.brs"/>
 		<script type="text/brightscript" uri="pkg:/source/utils.brs" />
 		<script type="text/brightscript" uri="pkg:/source/registry.brs" />
+		<script type="text/brightscript" uri="pkg:/components/tasks/Top10Task/top10Task.brs" />
 
 		<interface>
 			
@@ -35,12 +36,7 @@
 				<TaskController id="TaskController" />
 				<BrandController id="BrandController" />
 				<AnalyticsController id="AnalyticsController" />
-
-				
-
-
-	
-
+				<Top10Task id="top10Task" />
 				
 		</children>
 </component>

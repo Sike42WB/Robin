@@ -1,0 +1,31 @@
+{  
+    "credits": [
+      {
+        "Title_ID": "tm47834",
+        "Person_ID": 20266,
+        "Person_Name": "Fritz Lang and Colin Quinn",
+        "role": "Director",
+        "streaming_service": "HBO When to sell Bitcoin",
+        "SortOrder": 1,  
+        "ShowCardURL": "https://www.nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "sdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "hdImg": "http://nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "streamURL": "https://sike42.blob.core.windows.net/videos/CowheadTV/Colin-Quinn-interview-with-cowhead-tv.mp4",
+        "synopsis": "The DIM CREDITS ROKU MATEA data for Bitcoin according to Colin Quinn"
+      } 
+    
+    ],
+    "titles": [
+      {
+        "Title_ID": "Top 10 Bitcoin Tips from Colin Quinn",
+        "Title_Name": "https://www.nerdjewels.com/Content/Roku/rokuxml/cowhead/images/Colin_Quinn.png",
+        "type": "BitcoinTips",
+        "release_year": "Colin Quinn shares his top 10 tips for investing in Bitcoin.",
+        "age_certification": "comedy",
+        "genres": "PG-13",
+        "production_countries": "US",
+        "imdb_rating": "7.5",
+        "streaming_service": "HBO When to sell Bitcoin"
+      }
+    ]
+}
