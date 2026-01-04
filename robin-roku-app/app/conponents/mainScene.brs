@@ -39,5 +39,30 @@ function getPage(data as Object, page as Integer, pageSize as Integer) as Object
         endIndex = data.count()
     end if
 
-    return data[startIndex:endIndex]
+    ' return data[startIndex:endIndex]
+    return []
 end function
+
+
+
+sub LoadTop10()
+    task = CreateObject("roSGNode", "Top10Task")
+    task.url = "https://www.nerdjewels.com/top10.json"
+
+    task.ObserveField("status", "OnTop10Loaded")
+    task.control = "run"
+end sub
+
+sub OnTop10Loaded()
+    task = m.top10Task
+
+    if task.status = "success"
+        top10AA = task.result
+        ?"TOP 10 DATA LOADED:"
+        ? top10AA
+    else
+        ?"ERROR LOADING TOP 10:"; task.status
+    end if
+end sub
+
+

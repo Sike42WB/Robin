@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="Top10Task" extends="Task">
+    <interface>
+        <field id="url" type="string" />
+        <field id="result" type="assocarray" />
+        <field id="status" type="string" />
+    </interface>
+
+    <script type="text/brightscript" uri="pkg:/components/tasks/top10Task/top10Task.brs" />
+</component>

@@ -59,3 +59,25 @@ body = {
 }
 
 ![Logo](./robin-web-app/example.png)
+
+
+### Data Engineer Academy
+
+    Showcase a list of top 10 genres based on the count of movies of each genre. 
+
+    Output the genre name and total shows in that genre category.
+
+    #### Solution
+
+    Select * from credits where person_name = "Fritz Lang" count(movies) : Return credits AA as { jsonCredits.json }
+
+    Select * from content where title_id = "ts21321" : Return content AA as { result.json }
+
+        Stub mock data to model the new Abstract Data Type (ADT)
+        Create new task called Top10Task in the TASKs folder
+            see top10Task.brs and top10Task.xml
+
+
+
+![Image](./robin-roku-app/app/images/DATA-ENGINEER-ACADEMY-ROKU-TOP10.png)
+          
